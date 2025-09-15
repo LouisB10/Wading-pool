@@ -1,0 +1,3 @@
+find human-readable file : 
+file ./*
+
