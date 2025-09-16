@@ -15,6 +15,8 @@ def sandwich():
     ham()
     bread()
 
-
-
 sandwich()
+
+# Avec nos 4 fonctions qui correspondent aux 4 parties du sandwich
+# Nous pouvons les utiliser dans une nouvelle fonction qui va 
+# Simplement appeler dans l'ordre de l'énoncé les différentes parties du sandwich

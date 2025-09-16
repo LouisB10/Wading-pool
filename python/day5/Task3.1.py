@@ -23,8 +23,22 @@ def funC(s,n):
         return True
     return False
 
-
-
 # print(funA(s,n))
 # print(funB(s,n))
 # print(funC(s,n))
+
+#autre solution : 
+def funA(s,n):
+    if len(s) >= n :
+        return True
+    return False
+
+def funB(s,n):
+    if len(re.findall(r"[!@#$%^&*()_+{}\[\]:;<>,.?\\/-]", s)) >= n:
+        return True
+    return False
+
+def funC(s,n):
+    if len(re.findall(r"[0123456789]", s)) >= n:
+        return True
+    return False
