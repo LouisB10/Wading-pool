@@ -15,9 +15,9 @@ else:
 
 
 #Renvoit true si palindrome
-def task2_2(text):
-    text = re.sub(r"[^A-Za-z]", "", text)
-    text = text.lower()
-    reversed_text = text[::-1]
-    return text == reversed_text
+# def task2_2(text):
+#     text = re.sub(r"[^A-Za-z]", "", text)
+#     text = text.lower()
+#     reversed_text = text[::-1]
+#     return text == reversed_text
 

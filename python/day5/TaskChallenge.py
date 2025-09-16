@@ -7,7 +7,7 @@ def power (base, exponent):
         return base * power(base, exponent -1)
     else :
         return res
-
+    
 print(power(42,84))
 print(power(42,168))
 print(time.time()- start) 
